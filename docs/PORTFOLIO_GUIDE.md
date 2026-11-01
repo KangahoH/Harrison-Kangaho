@@ -26,7 +26,7 @@ Prepared 1 November 2026.
 | Coral | #DF785A | Small marks, focus outline |
 | Muted | #626B61 | Supporting copy |
 
-Arial/Helvetica keeps body text familiar and portable. Georgia italics soften the display headlines. Generous spacing and a simple grid keep the work prominent. All fonts use local fallbacks; no external font request is needed.
+Alegreya Sans is the primary typeface for body copy and display headings, including italic emphasis. Its regular, medium, bold and italic Latin webfonts are bundled locally under the SIL Open Font License. Futura is the secondary typeface for the full-name wordmark, navigation, buttons and labels. It uses a visitor’s installed Futura or Futura PT font, with Century Gothic and Alegreya Sans as fallbacks. No licensed Futura font file is bundled; add a licensed webfont kit for consistent Futura rendering across devices. The header wordmark reads “Harrison Kangaho.” and wraps its navigation onto a second row on smaller screens. No external font request is needed.
 
 ## VS Code quick start
 

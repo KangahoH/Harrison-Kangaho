@@ -45,3 +45,7 @@ Asmahaney Saad and Kwikfloat use supplied screenshots; other project covers are 
 ## Contact
 
 [GitHub](https://github.com/KangahoH) · [LinkedIn](https://www.linkedin.com/in/harrison-kangaho-a1893b385/) · [Email](mailto:harrison.kangaho28@gmail.com)
+
+### Typography
+
+Alegreya Sans is the bundled primary font. Futura is the secondary CSS font for the wordmark, navigation, buttons and labels, using installed Futura/Futura PT, then Century Gothic or Alegreya Sans. Futura font software is not included; a licensed webfont kit is required to show it consistently on every device. Alegreya Sans fonts, their OFL license and FONTLOG are in `dist/assets/fonts/`.
