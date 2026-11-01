@@ -937,6 +937,20 @@ h1 .serif {
   align-items:center;
   gap:13px;
 }
+.contact-details {
+  display:grid;
+  gap:8px;
+}
+.phone-link {
+  justify-self:start;
+  font-size:17px;
+  line-height:1.5;
+  border-bottom:1px solid #95a18e;
+  padding-bottom:3px;
+}
+.phone-link:hover {
+  color:#9b482f;
+}
 .email-link {
   font-size:17px;
   letter-spacing:-.3px;
