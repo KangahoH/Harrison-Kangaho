@@ -50,7 +50,7 @@ Visit http://localhost:5500. No dependency installation or build command is requ
 
 ## Source boundaries
 
-The saved résumé and current public GitHub sources provide the main evidence. LinkedIn supplied limited indexed profile context; direct Instagram access was restricted, so Aneta's publicly indexed first-party portfolio advice informed structure. Education dates follow the résumé. Covers are labelled illustrations. Detailed source links are in `CONTENT_SOURCES.md`.
+The saved résumé and current public GitHub sources provide the main evidence. LinkedIn supplied limited indexed profile context; direct Instagram access was restricted, so Aneta's publicly indexed first-party portfolio advice informed structure. Education dates follow the résumé. Asmahaney Saad and Kwikfloat use supplied screenshots; other covers remain labelled illustrations. Detailed source links are in `CONTENT_SOURCES.md`.
 
 ## Validation
 

@@ -1978,3 +1978,73 @@ dialog ul {
   .asma-statement { padding-left:0; }
   .asma-statement strong { font-size:28px; }
 }
+
+/* Supplied project screenshots retain their complete aspect ratio. */
+.project-featured .project-screenshot {
+  height:610px;
+}
+.project-screenshot .visual-topline {
+  position:absolute;
+  top:23px;
+  left:24px;
+  right:24px;
+}
+.project-screenshot .screenshot-stage {
+  position:absolute;
+  top:53px;
+  bottom:58px;
+  left:24px;
+  right:24px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.project-screenshot .screenshot-stage img {
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+.dialog-project-image {
+  margin:22px 0 25px;
+}
+.dialog-project-image a {
+  display:block;
+}
+.dialog-project-image img {
+  width:100%;
+  height:auto;
+  border:1px solid var(--line);
+  border-radius:6px;
+}
+.dialog-project-image figcaption {
+  margin-top:8px;
+  font-size:10px;
+  line-height:1.5;
+  color:var(--muted);
+}
+@media(max-width:800px) {
+  .project-featured .project-screenshot { height:460px; }
+}
+@media(max-width:600px) {
+  .project-visual.project-screenshot,
+  .project-featured .project-visual.project-screenshot {
+    height:auto;
+    padding:19px;
+  }
+  .project-screenshot .screenshot-stage {
+    position:static;
+    display:block;
+    margin:19px 0;
+  }
+  .project-screenshot .visual-topline {
+    position:static;
+  }
+  .project-screenshot .screenshot-stage img {
+    width:100%;
+    height:auto;
+  }
+  .project-screenshot .visual-bottomline {
+    position:static;
+  }
+}

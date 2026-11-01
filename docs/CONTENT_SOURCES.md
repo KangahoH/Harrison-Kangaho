@@ -16,7 +16,8 @@ Reviewed on 1 November 2026. This file records evidence for the portfolio's cont
 - **Asmahaney Saad**: https://asmahaneysaad.com. Harrison supplied the site as his recent work. The public page redirects to https://www.asmahaneysaad.com/ and has the title "Asmahaney Saad | Legal Strategist & Corporate Leader". Its meta description identifies law, governance and social impact. The portfolio describes the personal-brand website without adding unverified technical stack, commerce features or results.
 - **Kwikfloat**: https://github.com/KangahoH/Kwikfloat. Read repository metadata, package.json, source tree through GitHub's public API. Description covers cash, float, agents, transactions, commissions, expenses and reconciliation across MTN and Airtel. Source contains React/TypeScript application views for these operations, including ledgers, transfers, reports and audit trail. No adoption, integration-completion or financial performance claims are added.
 - **Sandy Collections**: https://github.com/KangahoH/SandyCollections. Read repository metadata, package.json, source tree through GitHub's public API. Description identifies a clothing and accessories shop management system. Source includes inventory, point of sale, delivery, staff, reports and authentication views, plus Supabase project files and client dependency. No deployment health, user adoption or sales outcome is claimed.
-- The three new entries appear at the top of Recent & Selected Work. Covers follow the existing labelled HTML/CSS illustration approach; they are not copies of project screenshots or claims about actual brand identity.
+- The three new entries appear at the top of Recent & Selected Work. Asmahaney Saad and Kwikfloat now use screenshots supplied by Harrison on 1 November 2026. The remaining project covers retain the labelled HTML/CSS illustration approach.
+- **Supplied screenshot assets**: `asmahaney1.png` is used for Asmahaney Saad and `Kwikfloat.png` for Kwikfloat. Their original image data is preserved, with aspect-ratio-safe display and full-size links in the corresponding project details. Values visible inside the dashboard image are screenshot content, not portfolio outcome metrics.
 
 ## Inspiration
 
@@ -27,7 +28,7 @@ Reviewed on 1 November 2026. This file records evidence for the portfolio's cont
 
 - A warm paper background, deep green text, lime highlights and coral details balance a professional engineering profile with a personal design voice.
 - Six grounded projects: the three recent additions, collaborative healthcare software, a personal web app and a creative-studio website.
-- All project covers are original HTML/CSS portfolio illustrations, visibly labelled. They are not actual product screenshots or evidence of shipped interface designs.
+- The Asmahaney Saad and Kwikfloat covers are supplied project screenshots, labelled accordingly. Other covers remain original HTML/CSS portfolio illustrations.
 - No testimonials, client endorsements, availability claims, invented product metrics or made-up repositories.
 - Repositories are linked directly. The recent Asmahaney Saad entry links to the supplied website; other entries link to public source repositories.
 - The site is static and needs no credentials. There is no message form or backend submission.

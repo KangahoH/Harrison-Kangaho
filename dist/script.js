@@ -13,7 +13,9 @@ const projects = {
     ],
     link: 'https://asmahaneysaad.com',
     linkLabel: 'Visit website ↗',
-    note: 'Project supplied by Harrison. Summary grounded in the website’s current public title and description. The cover is an original portfolio illustration.'
+    image: 'assets/asmahaney-website.png',
+    imageAlt: 'Asmahaney Saad website homepage with her portrait and the headline Law. Purpose. Presence. Leadership.',
+    note: 'Project and website screenshot supplied by Harrison. Summary grounded in the website’s current public title and description.'
   },
   kwikfloat: {
     eyebrow: 'RECENT WORK / SOFTWARE DEVELOPMENT / MOBILE MONEY',
@@ -25,7 +27,9 @@ const projects = {
       { title: 'The technical foundation', text: 'Built with React, TypeScript and Vite, with Tailwind CSS and Lucide icons in the project’s toolkit. Explore the repository for the current implementation.' }
     ],
     link: 'https://github.com/KangahoH/Kwikfloat',
-    note: 'Sources: public repository description, package.json and source-tree listing. The cover is an original portfolio illustration.'
+    image: 'assets/kwikfloat-dashboard.png',
+    imageAlt: 'KwikFloat mobile money dashboard with wallet, transaction and reconciliation panels.',
+    note: 'Sources: public repository description, package.json and source-tree listing. Dashboard screenshot supplied by Harrison.'
   },
   sandy: {
     eyebrow: 'RECENT WORK / SOFTWARE DEVELOPMENT / RETAIL',
@@ -96,6 +100,20 @@ function openProject(key) {
   const title = element('h2', project.title);
   title.id = 'dialog-title';
   dialogContent.append(title, element('p', project.lead, 'dialog-lead'));
+  if (project.image) {
+    const figure = element('figure', '', 'dialog-project-image');
+    const link = document.createElement('a');
+    link.href = project.image;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.setAttribute('aria-label', `Open full-size ${project.title} screenshot`);
+    const screenshot = document.createElement('img');
+    screenshot.src = project.image;
+    screenshot.alt = project.imageAlt;
+    link.append(screenshot);
+    figure.append(link, element('figcaption', 'Select the image to view the full-size screenshot ↗'));
+    dialogContent.append(figure);
+  }
   project.sections.forEach(section => {
     const block = element('section', '', 'dialog-section');
     block.append(element('h3', section.title));

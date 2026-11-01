@@ -40,7 +40,7 @@ Before the first deployment, enable GitHub Pages for the repository and set **Se
 
 When adding a project, keep its `data-project` key and matching story key in `script.js` identical. Update the category, project count and cover numbering. Set `linkLabel` for website links; repository links use the default GitHub label.
 
-Project covers are labelled portfolio illustrations. Email opens the visitor's mail application; copying an email address works on HTTPS or localhost. The site has no backend, API keys, analytics service or remote fonts.
+Asmahaney Saad and Kwikfloat use supplied screenshots; other project covers are labelled portfolio illustrations. Email opens the visitor's mail application; copying an email address works on HTTPS or localhost. The site has no backend, API keys, analytics service or remote fonts.
 
 ## Contact
 
