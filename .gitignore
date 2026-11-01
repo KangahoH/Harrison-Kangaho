@@ -1,0 +1,10 @@
+# The static dist/ directory is the website source and stays tracked.
+node_modules/
+.env
+.env.*
+!.env.example
+.openai/
+tmp/
+output/
+.DS_Store
+Thumbs.db
